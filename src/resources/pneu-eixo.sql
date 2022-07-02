@@ -98,3 +98,17 @@ CREATE TABLE medicao_banda_vistoria (
     id_medicao_vistoria   INT         NOT NULL    REFERENCES medicao_vistoria
 );
 
+-- marca                        Marca.class                          MarcaDAO.java                     (Feito)
+-- marca_pneu                   MarcaPneu.class                      MarcaPneuDAO.java                 (Pedro)
+-- tipo_eixo                    TipoEixo.class                       TipoEixoDAO.java                  (Ronaldo)
+-- banda                        Banda.class                          BandaDAO.java                     (Pedro)
+-- veiculo                      Veiculo.class                        VeiculoDAO.java                   (Ronaldo)
+-- eixo                         Eixo.class                           EixoDAO.java                      (Pedro)
+-- pneu                         Pneu.class                           PneuDAO.java                      (Ronaldo)
+-- pneu_reserva                 PneuReserva.class                    PneuReservaDAO.java               (Pedro)
+-- eixo_veiculo                 EixoVeiculo.class                    EixoVeiculoDAO.java               (Ronaldo)
+-- vistoria_veiculo             VistoriaVeiculo.class                VistoriaVeiculoDAO.java           (Pedro)
+-- vistoria_pneu                VistoriaPneu.class                   VistoriaPneuDAO.java              (Ronaldo)
+-- medicao_vistoria             MedicaoVistoria.class                MedicaoVistoriaDAO.java           (Pedro)
+-- pneu_banda                   PneuBanda.class                      PneuBandaDAO.java                 (Ronaldo)
+-- medicao_banda_vistoria       MedicaoBandaVistoria.class           MedicaoBandaVistoriaDAO.java      (Pedro)
