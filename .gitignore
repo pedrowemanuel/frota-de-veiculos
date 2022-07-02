@@ -1,0 +1,5 @@
+*.bak
+*.idea
+
+# Project exclude paths
+/target/
