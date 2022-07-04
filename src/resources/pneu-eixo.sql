@@ -99,7 +99,7 @@ CREATE TABLE medicao_banda_vistoria (
 );
 
 -- marca                        Marca.class                          MarcaDAO.java                     (Feito)
--- marca_pneu                   MarcaPneu.class                      MarcaPneuDAO.java                 (Pedro)
+-- marca_pneu                   MarcaPneu.class                      MarcaPneuDAO.java                 (Pedro - Feito)
 -- tipo_eixo                    TipoEixo.class                       TipoEixoDAO.java                  (Ronaldo)
 -- banda                        Banda.class                          BandaDAO.java                     (Pedro)
 -- veiculo                      Veiculo.class                        VeiculoDAO.java                   (Ronaldo)
