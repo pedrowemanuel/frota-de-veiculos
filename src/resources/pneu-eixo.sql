@@ -82,7 +82,7 @@ CREATE TABLE medicao_vistoria  (
     indice_carga                VARCHAR(45)     NOT NULL,
     indice_velocidade           VARCHAR(45)     NOT NULL,
     id_marca_pneu               INT             NOT NULL        REFERENCES marca_pneu,
-    id_vistoria                 INT             NOT NULL        REFERENCES vistoria_pneu           
+    id_vistoria_pneu            INT             NOT NULL        REFERENCES vistoria_pneu           
 );
 
 CREATE TABLE pneu_banda (
@@ -102,15 +102,15 @@ CREATE TABLE medicao_banda_vistoria (
 
 -- marca                        Marca.class                          MarcaDAO.java                     (Feito)
 -- marca_pneu                   MarcaPneu.class                      MarcaPneuDAO.java                 (Feito)
--- tipo_eixo                    TipoEixo.class                       TipoEixoDAO.java                  (Pedro - Feito)
--- banda                        Banda.class                          BandaDAO.java                     (Pedro - Feito)
--- veiculo                      Veiculo.class                        VeiculoDAO.java                   (Ronaldo)
--- eixo                         Eixo.class                           EixoDAO.java                      (Pedro - Feito)
--- pneu                         Pneu.class                           PneuDAO.java                      (Ronaldo)
--- pneu_reserva                 PneuReserva.class                    PneuReservaDAO.java               (Pedro - Feito)
--- eixo_veiculo                 EixoVeiculo.class                    EixoVeiculoDAO.java               (Ronaldo)
--- vistoria_veiculo             VistoriaVeiculo.class                VistoriaVeiculoDAO.java           (Pedro - Feito)
--- vistoria_pneu                VistoriaPneu.class                   VistoriaPneuDAO.java              (Ronaldo)
--- medicao_vistoria             MedicaoVistoria.class                MedicaoVistoriaDAO.java           (Pedro - )
--- pneu_banda                   PneuBanda.class                      PneuBandaDAO.java                 (Ronaldo)
--- medicao_banda_vistoria       MedicaoBandaVistoria.class           MedicaoBandaVistoriaDAO.java      (Pedro)
+-- tipo_eixo                    TipoEixo.class                       TipoEixoDAO.java                  (Feito)
+-- banda                        Banda.class                          BandaDAO.java                     (Feito)
+-- veiculo                      Veiculo.class                        VeiculoDAO.java                   (Feito)
+-- eixo                         Eixo.class                           EixoDAO.java                      (Feito)
+-- pneu                         Pneu.class                           PneuDAO.java                      (Feito)
+-- pneu_reserva                 PneuReserva.class                    PneuReservaDAO.java               (Feito)
+-- eixo_veiculo                 EixoVeiculo.class                    EixoVeiculoDAO.java               (Feito)
+-- vistoria_veiculo             VistoriaVeiculo.class                VistoriaVeiculoDAO.java           (Feito)
+-- vistoria_pneu                VistoriaPneu.class                   VistoriaPneuDAO.java              (Feito)
+-- medicao_vistoria             MedicaoVistoria.class                MedicaoVistoriaDAO.java           (Feito)
+-- pneu_banda                   PneuBanda.class                      PneuBandaDAO.java                 ()
+-- medicao_banda_vistoria       MedicaoBandaVistoria.class           MedicaoBandaVistoriaDAO.java      (Feito)

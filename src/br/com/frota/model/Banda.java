@@ -1,18 +1,18 @@
 package br.com.frota.model;
 
-public class TipoEixo extends GenericModel {
+public class Banda extends GenericModel {
     private String descricao;
 
-    public TipoEixo(String descricao) {
+    public Banda(String descricao) {
         this.descricao = descricao;
     }
 
-    public TipoEixo(Integer id, String descricao) {
+    public Banda(Integer id, String descricao) {
         this.descricao = descricao;
         super.setId(id);
     }
 
-    public TipoEixo(Integer id) {
+    public Banda(Integer id) {
         super.setId(id);
     }
 
@@ -26,7 +26,7 @@ public class TipoEixo extends GenericModel {
 
     @Override
     public String toString() {
-        return "TipoEixo {" +
+        return "Banda {" +
                 "id='" + this.getId() + "\'" +
                 "descricao='" + descricao + "\'" +
                 '}';

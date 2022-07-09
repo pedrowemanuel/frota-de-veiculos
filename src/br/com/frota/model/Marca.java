@@ -12,6 +12,10 @@ public class Marca extends GenericModel {
         super.setId(id);
     }
 
+    public Marca(Integer id) {
+        super.setId(id);
+    }
+
     public String getDescricao() {
         return descricao;
     }

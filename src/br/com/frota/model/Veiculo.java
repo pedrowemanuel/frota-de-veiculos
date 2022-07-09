@@ -1,18 +1,23 @@
 package br.com.frota.model;
 
-public class TipoEixo extends GenericModel {
-    private String descricao;
+import br.com.frota.model.Marca;
 
-    public TipoEixo(String descricao) {
+public class Veiculo extends GenericModel {
+    private String descricao;
+    private Marca marca;
+
+    public Veiculo(String descricao, Marca marca) {
         this.descricao = descricao;
+        this.marca = marca;
     }
 
-    public TipoEixo(Integer id, String descricao) {
+    public Veiculo(Integer id, String descricao, Marca marca) {
         this.descricao = descricao;
+        this.marca = marca;
         super.setId(id);
     }
 
-    public TipoEixo(Integer id) {
+    public Veiculo(Integer id) {
         super.setId(id);
     }
 
@@ -24,11 +29,16 @@ public class TipoEixo extends GenericModel {
         this.descricao = descricao;
     }
 
+    public Marca getMarca() { return marca; }
+
+    public void setMarca(Marca marca) { this.marca = marca; }
+
     @Override
     public String toString() {
-        return "TipoEixo {" +
+        return "Veiculo {" +
                 "id='" + this.getId() + "\'" +
                 "descricao='" + descricao + "\'" +
+                "marca='" + marca.getDescricao() + "\'" +
                 '}';
     }
 }

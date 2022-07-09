@@ -12,6 +12,10 @@ public class MarcaPneu extends GenericModel {
         super.setId(id);
     }
 
+    public MarcaPneu(Integer id) {
+        super.setId(id);
+    }
+
     public String getDescricao() {
         return descricao;
     }
