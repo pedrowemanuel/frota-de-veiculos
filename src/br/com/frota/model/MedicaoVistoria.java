@@ -1,7 +1,7 @@
 package br.com.frota.model;
 
-import br.com.frota.MarcaPneu;
-import br.com.frota.VistoriaPneu;
+import br.com.frota.model.MarcaPneu;
+import br.com.frota.model.VistoriaPneu;
 
 public class MedicaoVistoria extends GenericModel {
     private int raio;
@@ -49,11 +49,11 @@ public class MedicaoVistoria extends GenericModel {
         this.raio = raio;
     }
 
-    public String getperfil() {
+    public String getPerfil() {
         return perfil;
     }
 
-    public void setperfil(String perfil) {
+    public void setPerfil(String perfil) {
         this.perfil = perfil;
     }
 
@@ -97,7 +97,7 @@ public class MedicaoVistoria extends GenericModel {
         this.marcaPneu = marcaPneu;
     }
 
-    public MarcaPneu getVistoriaPneu() {
+    public VistoriaPneu getVistoriaPneu() {
         return vistoriaPneu;
     }
 

@@ -36,11 +36,11 @@ public class VistoriaVeiculo extends GenericModel {
         this.observacao = observacao;
     }
 
-    public DataVistoria getDataVistoria() {
+    public Date getDataVistoria() {
         return dataVistoria;
     }
 
-    public void setDataVistoria(DataVistoria dataVistoria) {
+    public void setDataVistoria(Date dataVistoria) {
         this.dataVistoria = dataVistoria;
     }
 

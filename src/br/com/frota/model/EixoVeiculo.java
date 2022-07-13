@@ -26,11 +26,11 @@ public class EixoVeiculo extends GenericModel {
         super.setId(id);
     }
 
-    public Eixo geteixo() {
+    public Eixo getEixo() {
         return eixo;
     }
 
-    public void seteixo(Eixo eixo) {
+    public void setEixo(Eixo eixo) {
         this.eixo = eixo;
     }
 
@@ -51,7 +51,7 @@ public class EixoVeiculo extends GenericModel {
     }
 
     @Override
-    public Eixo toEixo() {
+    public String toString() {
         return "EixoVeiculo {" +
                 "id='" + this.getId() + "\'" +
                 "eixo='" + eixo.getId() + "\'" +

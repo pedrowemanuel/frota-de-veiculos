@@ -8,6 +8,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class VistoriaPneuDAO extends ConexaoDB {
@@ -59,7 +60,7 @@ public class VistoriaPneuDAO extends ConexaoDB {
                 String observacao = rs.getString("observacao");
                 Date dataCadastro = rs.getDate("data_cadastro");
                 int idPneu = rs.getInt("id_pneu");
-                int idVistoriaVeiculo = rs.getString("id_vistoria_veiculo");
+                int idVistoriaVeiculo = rs.getInt("id_vistoria_veiculo");
                 entidade = new VistoriaPneu(id, observacao, dataCadastro, new Pneu(idPneu), new VistoriaVeiculo(idVistoriaVeiculo));
             }
         } catch (SQLException e) {
@@ -80,7 +81,7 @@ public class VistoriaPneuDAO extends ConexaoDB {
                 String observacao = rs.getString("observacao");
                 Date dataCadastro = rs.getDate("data_cadastro");
                 int idPneu = rs.getInt("id_pneu");
-                int idVistoriaVeiculo = rs.getString("id_vistoria_veiculo");
+                int idVistoriaVeiculo = rs.getInt("id_vistoria_veiculo");
                 entidades.add(new VistoriaPneu(id, observacao, dataCadastro, new Pneu(idPneu), new VistoriaVeiculo(idVistoriaVeiculo)));
             }
         } catch (SQLException e) {

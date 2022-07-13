@@ -36,11 +36,11 @@ public class VistoriaPneu extends GenericModel {
         this.observacao = observacao;
     }
 
-    public DataCadastro getDataCadastro() {
+    public Date getDataCadastro() {
         return dataCadastro;
     }
 
-    public void setDataCadastro(DataCadastro dataCadastro) {
+    public void setDataCadastro(Date dataCadastro) {
         this.dataCadastro = dataCadastro;
     }
 

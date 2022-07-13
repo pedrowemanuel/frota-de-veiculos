@@ -25,6 +25,6 @@ public class GenericModel {
 
     public String convertDateString(Date data) {
 		SimpleDateFormat dateParser = new SimpleDateFormat("yy-MM-dd HH:mm:ss");
-		return dateParser.format(this.data);
+		return dateParser.format(data);
 	}
 }

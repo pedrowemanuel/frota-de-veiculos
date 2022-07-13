@@ -1,6 +1,6 @@
 package br.com.frota.model;
 
-import br.com.frota.MarcaPneu;
+import br.com.frota.model.MarcaPneu;
 
 public class Pneu extends GenericModel {
     private int raio;
@@ -44,11 +44,11 @@ public class Pneu extends GenericModel {
         this.raio = raio;
     }
 
-    public String getperfil() {
+    public String getPerfil() {
         return perfil;
     }
 
-    public void setperfil(String perfil) {
+    public void setPerfil(String perfil) {
         this.perfil = perfil;
     }
 

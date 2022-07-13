@@ -1,7 +1,7 @@
 package br.com.frota.model;
 
-import br.com.frota.PneuBanda; 
-import br.com.frota.MedicaoVistoria; 
+import br.com.frota.model.PneuBanda; 
+import br.com.frota.model.MedicaoVistoria; 
 
 public class MedicaoBandaVistoria extends GenericModel {
     private float valor;
